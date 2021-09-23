@@ -3,13 +3,12 @@ package oss
 import (
 	"bytes"
 	"fmt"
-	"path"
-	"runtu666/common/shared/utils"
-	"time"
-
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	"github.com/globalsign/mgo/bson"
+	"github.com/runtu666/common/shared/utils"
 	"github.com/tal-tech/go-zero/core/logx"
+	"path"
+	"time"
 )
 
 type Client struct {
