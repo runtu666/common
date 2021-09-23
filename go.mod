@@ -1,4 +1,4 @@
-module common
+module runtu666/common
 
 go 1.16
 

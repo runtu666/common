@@ -2,9 +2,9 @@ package oss
 
 import (
 	"bytes"
-	"common/shared/utils"
 	"fmt"
 	"path"
+	"runtu666/common/shared/utils"
 	"time"
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
