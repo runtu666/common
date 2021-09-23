@@ -1,15 +1,24 @@
-# Binaries for programs and plugins
+*
+
+# Unignore all with extensions
+!*.*
+!**/Dockerfile
+# Unignore all dirs
+!*/
+!api
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-
-# Test binary, built with `go test -c`
+script
+.idea
+logs
 *.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
+*_test.go
+test
 *.out
-
-# Dependency directories (remove the comment below to include it)
-# vendor/
+*.yaml
+!docker-compose.yaml
+!docker
+!makefile
